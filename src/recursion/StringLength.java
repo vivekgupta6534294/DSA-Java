@@ -1,9 +1,7 @@
-
-import java.util.*;
 public class StringLength {
     public static int recLen(String str){
-       // if(str.equals(""))
-        if(str.length()==0)
+       if(str.equals(""))
+      //  if(str.length()==0)
             return 0;
         else
             return recLen(str.substring(1)) + 1;
