@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "src/recursion",
-        "src/backtracking"
+        "src/backtracking",
+        "src"
     ]
 }
