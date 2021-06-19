@@ -1,6 +1,5 @@
-package backtracking;
-
-public class Hello {
+// package backtracking;
+public class Hellos {
     public static void main(String[] args) {
         System.out.println("Hello");
     }
