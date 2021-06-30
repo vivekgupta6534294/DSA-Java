@@ -1,3 +1,5 @@
+package CollectionFramework;
+
 import java.util.*;
 // import java.util.ArrayDeque;
 public class ArrayDequeProgram {
