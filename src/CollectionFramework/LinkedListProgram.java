@@ -25,7 +25,7 @@ public class LinkedListProgram {
 
         } 
         // below part wil reverse the linked list 
-        Iterator x=l1.descendingIterator();
+        Iterator<Integer> x=l1.descendingIterator();
         while(x.hasNext()){
             System.out.println("Value is : "+x.next());
 

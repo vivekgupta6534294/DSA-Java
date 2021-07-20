@@ -1,8 +1,8 @@
 package CollectionFramework;
-import java.util.Comparator;
+// import java.util.Comparator;
 import java.util.*;
 import java.util.PriorityQueue;
-import java.util.Queue;
+// import java.util.Queue;
 public class PriorityQueueProg {
    public static void main(String[] args) {
        PriorityQueue<Integer> pq=new PriorityQueue<>(Collections.reverseOrder());

@@ -1,3 +1,4 @@
+//Program to check whether the given String is Palindrome or not 
 package String;
 
 public class checkPalindrome {
