@@ -26,11 +26,13 @@ public class dfsPath {
             }
         }
         return false;
+
     }
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int vt=7;
-        int edges=8;
+        // int edges=8;
         int src=0;
         int dest=6;
         ArrayList<Edge>[] graph =new ArrayList[vt];
@@ -63,6 +65,7 @@ public class dfsPath {
         boolean visited[]=new boolean [vt];
         boolean path=hasPath(graph,src,dest,visited);
         System.out.println(path);
+        sc.close();
 
     }
 }

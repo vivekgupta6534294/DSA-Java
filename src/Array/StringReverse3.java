@@ -14,7 +14,9 @@ public class StringReverse3 {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the String to reverse using Recursion");
         String str=sc.nextLine();
+        sc.close();
         System.out.println(reverse_string(str));
+
     }
    
     
