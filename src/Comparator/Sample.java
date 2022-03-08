@@ -4,8 +4,6 @@ package Comparator;
 // Comparator Interface
 
 // Importing required classes
-import java.io.*;
-import java.lang.*;
 import java.util.*;
 
 // Class 1

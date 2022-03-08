@@ -5,7 +5,7 @@ public class bfs {
     private static LinkedList<Integer> adj[];
 
     public  bfs(int v){
-        adj=new LinkedList[v];
+        // adj=new LinkedList[v];
         for(int i=0;i<v;i++){
             adj[i]=new LinkedList<Integer>();
         }

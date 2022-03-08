@@ -1,5 +1,5 @@
 package BinarySearchTree;
-import java.util.*;
+// import java.util.*;
 class FlattenBstToSortedArray{
     static class node{
         int data;
